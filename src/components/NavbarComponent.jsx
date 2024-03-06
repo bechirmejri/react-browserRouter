@@ -16,7 +16,7 @@ function NavbarComponent() {
             <NavLink
               to={link.path}
               className={({ isActive }) =>
-                isActive && "text-yellow-300 underline"
+              isActive ? "text-yellow-300 underline" : ""
               }>
               {link.name}
             </NavLink>

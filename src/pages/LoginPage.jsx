@@ -1,5 +1,5 @@
 
-/ import { useState } from 'react';
+ import { useState } from 'react';
 
 const LoginPage = () => {
   const [userName, setUserName] = useState('');
@@ -8,7 +8,7 @@ const LoginPage = () => {
   const handleUserNameChange = (e) => {
     setUserName(e.target.value);
   };
-
+ 
   const handlePasswordChange = (e) => {
     setPassword(e.target.value);
   };
