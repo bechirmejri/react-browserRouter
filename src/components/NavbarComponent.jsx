@@ -6,6 +6,7 @@ function NavbarComponent() {
     { path: "/about", name: "About" },
     { path: "/skills", name: "Skills" },
     { path: "/projects", name: "Projects" },
+    { path: "/Login", name: "Login" },
   ];
 
   return (
